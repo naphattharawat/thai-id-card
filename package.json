@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "minify": "jsmin -o dist/index.min.js dist/index.js",
-    "build": "tsc && cp package.json dist/package.json && npm run minify",
+    "build": "tsc && cp package.json dist/package.json && cp README.md dist/README.md && npm run minify",
     "publish": "npm publish --access public ./dist"
   },
   "license": "ISC",
