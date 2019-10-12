@@ -1,6 +1,6 @@
 {
   "name": "thai-id-card",
-  "version": "0.0.7",
+  "version": "0.0.10",
   "description": "thai id card check/generate",
   "main": "index.min.js",
   "scripts": {
@@ -26,5 +26,22 @@
     "jest": "^24.9.0",
     "jsmin": "^1.0.1",
     "typescript": "^3.6.4"
-  }
+  },
+  "keywords": [
+    "thai",
+    "thai-id-card",
+    "id-card",
+    "random id",
+    "verify id",
+    "บัตรประชาชน",
+    "สุ่มบัตรประชาชน",
+    "ตรวจสอบเลข",
+    "ตรวจสอบเลขบัตรประชาชน",
+    "ตรวจสอบ",
+    "verify",
+    "random",
+    "generate",
+    "cid",
+    "check cid"
+  ]
 }

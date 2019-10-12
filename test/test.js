@@ -38,3 +38,7 @@ test("Case 9: Invalid ID NULL", () => {
 test("Case 10: Invalid ID Only text character", () => {
     expect(thaiIdCard.verify("blablabla")).toBe(false);
 });
+
+test("Case 11: Test Generate", () => {
+    expect(thaiIdCard.verify(thaiIdCard.generate())).toBe(true);
+});
