@@ -21,3 +21,8 @@ const result = thaiIdCard.verify(‘1101700207030’);
 const id = thaiIdCard.generate();
 // return id
 ```
+
+## Demo
+```
+https://repl.it/@tanjaae/thai-id-card
+```
