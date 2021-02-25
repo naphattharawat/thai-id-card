@@ -15,7 +15,7 @@ import thaiIdCard from 'thai-id-card'; // for ES6
 
 ## Usage
 ``` typescript
-const result = thaiIdCard.verify(‘1101700207030’);
+const result = thaiIdCard.verify('1101700207030');
 // return true
 
 const id = thaiIdCard.generate();
